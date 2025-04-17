@@ -1,0 +1,68 @@
+body {
+    font-family: fantasy;
+    background-color: aliceblue;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-logo {
+    height: 50px;
+    width: 50px;
+    background-image: url(https://thumbs.dreamstime.com/b/letter-k-king-logo-icon-vector-concept-graphic-design-216773200.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav>a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid;
+    padding: 8px;
+}
+
+.banner-img {
+    height: 400px;
+    background-size: cover;
+    background-position: top;
+}
+
+.banner-1 {
+    background-image: url(https://ceosuite.co.id/wp-content/uploads/2023/10/Gedung-Perkantoran-CEO-SUITE-Jakarta.png);
+}
+
+.banner-2 {
+    background-image: url(https://www.cvwarehouse.com/Downloads/ATSCustomerFiles/11171/c16283ef-5c25-411b-a44e-364224d624bf.jpg);
+}
+
+.banner-3 {
+    background-image: url(https://a-cdn.sindonews.net/dyn/620/content/2019/12/16/40/1471156/china-jadi-raja-gedung-pencakar-langit-di-dunia-g0a-thumb.jpg);
+}
+
+main>section {
+    height: 800px;
+}
+
+.section-content {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+@media only screen and (max-width: 480px) {
+    .main-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

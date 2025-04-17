@@ -4,14 +4,190 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>kaffa company</title>
+    <title>kaffa Company</title>
 
-    <!-- CSS Eksternal -->
-    <link rel="stylesheet" href="css\style.css">
+    <!-- CSS External -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    
+    <!-- Header Content -->
+    <header class="main-header">
+        <!-- Logo -->
+        <div class="main-logo"></div>
+
+        <!-- Navigation* -->
+        <nav>
+            <a href="#home-section">Home</a>
+            <a href="#our-profile-section">Our Profile</a>
+            <a href="#portfolio-section">Portfolio</a>
+            <a href="#message-us-section">Message Us</a>
+        </nav>
+    </header>
+
+    <hr />
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home Section -->
+        <section id="home-section">
+            <header>
+                <h2>Hi _, Welcome to my website</h2>
+            </header>
+
+            <!-- Banner Content* -->
+            <div class="banner-img banner-1"></div>
+            <div class="banner-img banner-2"></div>
+            <div class="banner-img banner-3"></div>
+
+            <!-- Banner Text -->
+            <article class="section-content">
+                <p>my company</p>
+            </article>
+        </section>
+
+        <hr />
+
+        <!-- Our Profile Section -->
+        <section id="our-profile-section">
+            <header>
+                <h2>Our Profile</h2>
+            </header>
+
+            <!-- Our Profile Text -->
+            <article class="section-content">
+                <h1>kaffa company merupakan perusahaan yang bergerak dibidang jasa <abbr title="Informasi Teknologi">IT</abbr>. Berikut beberapa layanan kami :</h1>
+                <br>
+                <p>
+                <br>
+                    1. Website design dan Development
+                    Memberikan layanan web development seperti website company profile, portal, ecommerce sehingga dapat mempublikasikan berbagai informasi produk, layanan ,profil perusahaan dan sebagainya.
+                </br>
+                
+                <br>
+                2. Website Maintenance
+                    Setelah website selesai, kami memberikan layanan maintenance dan support terhadap website, hosting, domain dan email.
+                </br>
+                
+                <br>
+                    3. Online Advertising
+                    Online advertisement atau internet marketing, Promosi product atau layanan yang dilakukan melalui internet
+                        </p>
+                    </br>
+                </br>
+            </article>
+        </section>
+
+        <hr />
+
+        <!-- Portfolio Section -->
+        <section id="portfolio-section">
+            <header>
+                <h2>Portfolio Kaffa company</h2>
+            </header>
+
+            <!-- Portfolio Text -->
+            <article class="section-content">
+                <p>
+                    Tentang Kami
+                    Kaffa Company adalah penyedia jasa IT yang berfokus pada pengembangan website, maintenance, dan online advertising. Kami berkomitmen untuk memberikan solusi digital yang inovatif dan efektif untuk meningkatkan kehadiran online bisnis Anda.
+                    
+                    <br>Proyek Kami</br>
+                    <br>1. Website Design dan Development
+                    - Contoh Proyek:
+                        - Website company profile untuk XYZ Corporation
+                        - Portal berita untuk ABC News
+                        - E-commerce untuk DEF Store
+                    - Teknologi yang Digunakan:
+                        - HTML5
+                        - CSS3
+                        - JavaScript
+                        - Framework seperti React, Angular, atau Vue.js
+                    - Hasil:
+                        - Meningkatkan kehadiran online klien
+                        - Meningkatkan engagement pengguna
+                        - Meningkatkan konversi penjualan</br>
+                    
+                    <br>2. Website Maintenance
+                    - Contoh Proyek:
+                        - Maintenance website untuk GHI Company
+                        - Update keamanan website untuk JKL Corporation
+                        - Optimasi kecepatan website untuk MNO Store
+                    - Layanan yang Diberikan:
+                        - Update konten dan fitur website
+                        - Pemantauan keamanan website
+                        - Optimasi kecepatan dan performa website
+                    - Hasil:
+                        - Meningkatkan keamanan website
+                        - Meningkatkan kecepatan dan performa website
+                        - Meningkatkan kepuasan pengguna</br>
+                    
+                    <br>3. Online Advertising
+                    - Contoh Proyek:
+                        - Kampanye iklan Google Ads untuk PQR Company
+                        - Kampanye iklan Facebook Ads untuk STU Store
+                        - Optimasi SEO untuk VWX Corporation
+                    - Strategi yang Digunakan:
+                        - Analisis target audiens
+                        - Pembuatan konten iklan yang efektif
+                        - Pengaturan budget dan bidding yang optimal
+                    - Hasil:
+                        - Meningkatkan trafik website
+                        - Meningkatkan konversi penjualan
+                        - Meningkatkan kesadaran merek</br>
+                    
+                    <br>Keunggulan Kami
+                    - Tim yang Berpengalaman: Kami memiliki tim yang berpengalaman dalam pengembangan website, maintenance, dan online advertising.
+                    - Teknologi Terbaru: Kami menggunakan teknologi terbaru untuk memberikan solusi digital yang inovatif dan efektif.
+                    - Komitmen pada Kualitas: Kami berkomitmen pada kualitas dan kepuasan klien.</br>
+                    
+                    <br>Hubungi Kami
+                    Jika Anda ingin tahu lebih lanjut tentang layanan kami atau ingin berdiskusi tentang proyek Anda, silakan hubungi kami melalui [bimoadiyasa@live.com] atau [088 *** *** ***]. Kami siap membantu Anda meningkatkan kehadiran online bisnis Anda.</p>
+            </article>
+        </section>
+
+        <hr />
+
+        <!-- Message Us Section -->
+        <section id="message-us-section">
+            <header>
+                <h2>Message Us</h2>
+            </header>
+
+            <!-- Message Us Form -->
+            <form>
+                <div>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <br>
+
+                    <label for="name">Name:</label>
+                    <!-- Inputan yang wajib diisi -->
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <select>
+
+                <option> Man </option>
+                <option> Woman </option>
+                </select>
+
+                <br> Date Of Birth <input type='date'> </br>
+                <div>
+                    <button type="button" onclick="validateForm()">Submit</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <hr />
+    <!-- Footer Content -->
+    <footer>
+        <p>Made by kaffa@17/04/2025</p>
+    </footer>
+
+    <!-- JS External -->
+    <script src="js/script.js"></script>
 </body>
 
 </html>
